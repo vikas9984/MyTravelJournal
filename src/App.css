@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.nav{
+  line-height: 40px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: rgb(150, 145, 218);
+  display: flex;
+}
+.earth--logo{
+  height: 35px;
+  width: 30px;
+  margin-right: 10px;
+}
+.logo{
+  padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* card */
+.card{
+  margin: 40px;
+  box-shadow: #0d1105;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--container{
+  display: flex;
+}
+.card--img{
+  box-shadow: 10px 10px lightblue;
+  border-radius: 30px;
+  height: 300px;
+  width: 400px;
+}
+.card--details{
+  
+  margin-left: 40px;
+  word-wrap:break-word;
+  
+}
+.locate{
+  height: 20px;
+  margin-right: 5px;
+  /* margin-top: 5px; */
+}
+.mapp{
+  margin-left: 15px;
+  color: grey;
+}
+.journeyDate{
+  margin-bottom: 3px;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.card--title{
+  margin-top: 7px;
+}
+/* footer */
+.foo{
+  margin-bottom: 0;
+  background-color: black;
+}
+.foo--p{
+  text-align: center;
+  color: #fff;
 }
